@@ -39,5 +39,19 @@ If we were to type in the terminal after loading the file containing our functio
 ```
 Haskell would recognized that this matches our fourth line of code, and return `subtr (S S O) (S O)`. Following these patterns, the next computation results in `subtr (S O) (O)` which matches our second line of code. The final result if S O. 
 
-Some syntax to know for writing in Haskell: you do not need to add a semicolon after each line like in C++, and to add a comment, just start the line with "--", doulbe dashes.
+Yes, this breaking down of functions is confusing, but it lets you think about functions in a new way that really allows you to understand what you are doing. If you were to look at subtraction in C++,
+```
+subtr(x,y){return x-y}
+```
+You didn't have to run through the same thought process.
+
+Haskell also has boolean values. 
+```
+less :: NN -> NN -> Bool
+less n O = False
+less O n = True
+less (S n) (S m) = less n m
+``` 
+
+Some syntax to know for writing in Haskell: you do not need to add a semicolon after each line like in C++, and to add a comment, just start the line with "--", double dashes.
 
