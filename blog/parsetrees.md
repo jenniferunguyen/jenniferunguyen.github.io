@@ -12,4 +12,4 @@ EInt. Exp2 ::= Integer ;
 
 coercions Exp 2 ;
 ```
-We can see that the precendence levels for division and multiplication have a precendence level of 1, and addition and subtraction have a precendence level of 0. By default then, division and multiplication would be executed before addition and subtraction.
+We can see that the precendence levels for division and multiplication have a precendence level of 1, and addition and subtraction have a precendence level of 0. By default then, division and multiplication would be executed before addition and subtraction. Of course, if we wanted to have a subtraction executed before a multiplication, we would use parentheses.
