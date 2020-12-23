@@ -1,6 +1,6 @@
 # Step 2: Pattern Matching
 
-Haskel uses recursion through a feature called pattern matching. To sucessfully write pattern matching, you have to break down what you want to do by the simplest cases of each computation step. This can be very frustrating the do, because it is thinking about a function in a way that you haven't before.
+Haskel uses recursion through a feature called pattern matching. To sucessfully write pattern matching, you have to break down what you want to do by the simplest cases of each computation step. This can be very frustrating to do, because it is thinking about a function in a way that you haven't before.
 
 ## Thinking Through Subtraction
 We will use the subtraction example from the previuos post. To make it easier, we predefine numbers as O for 0 and S as how many from 0 the number is. Therefore, S S S O would be 3. We will only be using natural numbers in our scenario, just for simplicity. When thinking about subtraction, you take the larger number and remove the smaller number from it. This means that you make the larger number smaller, or closer to 0. In other words, you take the amount of steps equal to the smaller number from the larger number towards 0. 
