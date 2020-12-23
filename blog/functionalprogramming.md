@@ -15,7 +15,9 @@ int x = 1;
 int y = 2;
 y = x + y;
 ```
-As you can see, imperative programming gives you the ability to explicitly assign values to variables. In functional programming, you do not have the ability to create an instances where you can manually update its value. Instead, you have to think of a recursive way to execute the same action. This brings up one of the benefits of functional programming: your code can be significantly shorter than in imperative programming. 
+As you can see, imperative programming gives you the ability to explicitly assign values to variables. In functional programming, you do not have the ability to create an instance or variable where you can manually update its value. Variables are fixed at what they are initialized at. Instead, you have to think of a recursive way to execute the same action. This brings up one of the benefits of functional programming: your code can be significantly shorter than in imperative programming, because your code is reusable. 
+
+Another advantage to functional programming is its use of "lazy evaluation." Lazy evaluation is a compiler not evluating an expression until it needs to. For example, if a function is to take the first argument as x and add 2, but the function takes in two parameters x and y. The user can input anything for y, say 5-3, and in this case, the compiler would never evaluate 5-3, because it doesn't need to.
 ### Useful Links:
 [Practical Differences Between Functional and Imperative Programming](https://sookocheff.com/post/fp/differences-between-imperative-and-functional/)
 
