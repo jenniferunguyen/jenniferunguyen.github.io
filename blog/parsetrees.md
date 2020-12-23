@@ -1,4 +1,4 @@
-# Parsing Trees
+# Step 3 Parsing Trees
 
 Parse trees are how the compiler breaks down what it needs to do. Understand that the tree goes left to right, bottom to top. Parse trees are a visual way of seeing precedence levels. When writing by hand, parse tree order can be seen with the parentheses around the different expressions, similar to regular arithmetic. Precendence can be set for different expressions. The higher the precendence level, the sooner it is executed, because the higher the precedence, the further down in the tree it is. We know that the tree goes bottom to top. 
 
@@ -19,4 +19,4 @@ Once you have a grammar written out for your application, you can use a parser g
 bnfc -m --haskell <grammarFileName>.cf
 make
 ```
-Now, you can test your parser with `echo "<insert what you want to parse>"./<interpreterFileName>`. 
+Now, you can test your parser with `echo "<insert what you want to parse>"./<interpreterFileName>`. When in doubt while updating your grammer, it benefits to visually draw out the parse tree.
