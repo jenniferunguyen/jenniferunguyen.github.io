@@ -28,9 +28,11 @@ Haskell is the main functional programming language of this blog. Switching from
 
 Now, we get familiar with Haskell. In the terminal, you can enter a line and Haskell will evaluate it, because as mentioned above, everything is an expression. Try
 ```
->>>5*8
->>>10-9
->>>(7-3)*4
->>>7-3*4
+>5*8
+>10-9
+>(7-3)*4
+>7-3*4
 ```
+Notice that in the last example, the multiplication is evaluated before the subtraction. This is because Haskell has preset precedence levels. These levels tells Haskell which functions to evaluate first. The levels can range from 0 to 9.
 
+There is this amazing Haskell [cheat sheet](https://hackage.haskell.org/package/CheatSheet-1.7/src/CheatSheet.pdf) the provides a very nice guide to Haskell. I recommend skimming this for the new syntax and basic information.
