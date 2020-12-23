@@ -13,6 +13,6 @@ Downloading BNFC on my computer required an addition step of changing my namespa
 5. Verify that the changes have been made by typing `cat /etc/resolv.conf`.
 6. To make the changes permanent (because I found that my /etc/resolv.conf file keep resetting itself to my IP), type `sudo apt-get install resolvconf` then `sudo gedit /etc/resolvconf/resolv.conf.d/base`. 
 
-Table of Contents:
+## Table of Contents:
 
 1. [Functional Programming](functionalprogramming.md)
