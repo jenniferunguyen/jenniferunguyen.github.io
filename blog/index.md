@@ -19,7 +19,7 @@ To run Linux, I used WSL as my terminal and followed the [official site](https:/
 
 1. [Functional Programming](functionalprogramming.md)
 2. [Pattern Matching](patternmatching.md)
-3. Parsing Trees
+3. [Parsing Trees](parsetrees.md)
 4. Programming Languages
 5. Lambda Calculus
 6. Abstract Reduction Systems
