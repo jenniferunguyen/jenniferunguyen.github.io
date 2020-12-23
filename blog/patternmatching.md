@@ -41,7 +41,7 @@ Haskell would recognized that this matches our fourth line of code, and return `
 
 Yes, this breaking down of functions is confusing, but it lets you think about functions in a new way that really allows you to understand what you are doing. If you were to look at subtraction in C++,
 ```
-subtr(x,y){return x-y}
+subtr(x,y){return x-y;}
 ```
 You didn't have to run through the same thought process.
 
