@@ -20,10 +20,10 @@ To run Linux, I used WSL as my terminal and followed the [official site](https:/
 1. [Functional Programming](functionalprogramming.md)
 2. [Pattern Matching](patternmatching.md)
 3. [Parsing Trees](parsetrees.md)
-4. Programming Languages
-5. Lambda Calculus
-6. Abstract Reduction Systems
-7. Invariants
-8. 
+4. Lambda Calculus
+5. Abstract Reduction Systems
+6. Invariants
+7. 
+8.
 9.
 10.
