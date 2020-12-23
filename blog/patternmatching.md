@@ -52,6 +52,11 @@ less n O = False
 less O n = True
 less (S n) (S m) = less n m
 ``` 
+and lists
+```
+append [] ys = ys
+append (x:xs) (ys) = x:(append xs ys)
+```
 
 Some syntax to know for writing in Haskell: you do not need to add a semicolon after each line like in C++, and to add a comment, just start the line with "--", double dashes.
 
