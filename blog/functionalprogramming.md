@@ -52,3 +52,8 @@ If we were to use our function in the above example, we can see that our functio
 16
 ```
 
+Here are a couple of useful commands to wrap up this introduction. 
+`:load FILENAME.hs` allows you to open and use the functions in the file.
+`:help` provides a list of commands.
+`:quit` closes the interpreter, ghci.
+
