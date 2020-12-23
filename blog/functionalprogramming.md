@@ -24,5 +24,13 @@ Another advantage to functional programming is its use of "lazy evaluation." Laz
 [7 Unbeatable Advantages of Functional Programming](https://medium.com/@devisha.singh/7-unbeatable-advantages-of-functional-programming-b5d1af1edbe1)
 
 ## Intro to Haskell
-Haskell is the main functional programming language of this blog. Switching from imperative programming to functional programmin takes some time, because it requires one to think of the basis of a function. 
+Haskell is the main functional programming language of this blog. Switching from imperative programming to functional programmin takes some time, because it requires one to think of the basis of a function and of course, there are some syntax difference (more on that in later posts). To start, use the `ghci` command in your terminal. 
+
+Now, we get familiar with Haskell. In the terminal, you can enter a line and Haskell will evaluate it, because as mentioned above, everything is an expression. Try
+```
+>>>5*8
+>>>10-9
+>>>(7-3)*4
+>>>7-3*4
+```
 
