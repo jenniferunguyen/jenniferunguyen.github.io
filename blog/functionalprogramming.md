@@ -35,4 +35,20 @@ Now, we get familiar with Haskell. In the terminal, you can enter a line and Has
 ```
 Notice that in the last example, the multiplication is evaluated before the subtraction. This is because Haskell has preset precedence levels. These levels tells Haskell which functions to evaluate first. The levels can range from 0 to 9.
 
-There is this amazing Haskell [cheat sheet](https://hackage.haskell.org/package/CheatSheet-1.7/src/CheatSheet.pdf) the provides a very nice guide to Haskell. I recommend skimming this for the new syntax and basic information.
+There is this amazing Haskell [cheat sheet](https://hackage.haskell.org/package/CheatSheet-1.7/src/CheatSheet.pdf) the provides a very nice guide to Haskell. I recommend skimming this for the new syntax and basic information. 
+
+Now, you can define functions in the terminal of Haskell as well, though using a file is more usable for multiple-line functions. An example is subtraction.
+```
+>subtr x y = x - y
+```
+Here, we do not need to use any parantheses. We have defined a function called "subtr" that do subtraction for us. 
+```
+>subtr 7 3
+4
+```
+If we were to use our function in the above example, we can see that our function subtr has a higher precedence level than the operator *.
+```
+>subtr 7 3 * 4
+16
+```
+
