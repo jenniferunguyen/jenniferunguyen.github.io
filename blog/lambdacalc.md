@@ -34,8 +34,19 @@ For a fun read, check out Aaron Christianson's post [here](https://www.quora.com
 
 Parentheses and spaces between letters are also very important to lambda calculus, because it defines the parse tree for the execution. `(\x. x) x y` returns `x` while `(\x. x) xy` returns `xy`.
 
-Let's work through an example of reducing lambda calculus. 
+## Bound vs. Unbound Variables
+Bound variables are variables that are inside the definition of a function. Unbound or free variables are variables outside the function. In the following `(\x. x) y`, the x is a bound variable and the y is free.
 
+## Beta Reduction
+Beta reduction is what we have shown: replacing the bound variable with the argument.
+
+## Eta Reduction
+Eta reduction is different. Eta reduction allows us to simplify an equation in the event that the function can't do any more beta reduction with its argument. For example, we have an expression `\x.\y. x + y`. We can actually reduce this to just `+`. Another example follows:
+```
+(\f. f x)(\y. g y)
+(\f. f x) g
+g x
+```
 
 Useful links:
 
