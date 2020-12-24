@@ -42,4 +42,8 @@ blue red yellow yellow red blue
 blue orange yellow red blue
 blue orange yellow purple
 ```
-Now, we have obtained a normal form.
+Now, we have obtained a normal form. One of the easier ways to fix an ARS to obtain a unique normal form each time is to restrict the order of the string. Another way would be to have rules to make fewer elements. We can see that in the color combinations. A red and a yellow would be rewritten to orange. If we had allowed a rule such as `red yellow -> red yellow blue`, the amount of blue that we have could be infinite. 
+
+Useful link:
+
+[ARS Cheat Sheet](https://www.irif.fr/~kesner/enseignement/master1/semantique/Abstract-Rewriting-4.pdf)
