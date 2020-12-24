@@ -31,7 +31,7 @@ Once you have a grammar written out for your application, you can use a parser g
 bnfc -m --haskell <grammarFileName>.cf
 make
 ```
-Now, you can test your parser with `echo "<insert what you want to parse>"| ./<interpreterFileName>`. When in doubt while updating your grammer, it benefits to visually draw out the parse tree.
+Now, you can test your parser with `echo "<insert what you want to parse>"| ./<testName>`. When in doubt while updating your grammer, it benefits to visually draw out the parse tree.
 
 Useful links:
 
