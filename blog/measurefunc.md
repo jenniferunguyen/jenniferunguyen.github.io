@@ -7,4 +7,11 @@ red red ->
 ```
 How do we know that 5 red really ends at 1 red? Our measure function can be defined as the number of reds. We start off with 5 reds, which can be reduced to 3 reds, then 1 red. 1 is less than 5, so our measure function has shown that the ARS terminate. Simplying counting the number of reds is not an official measure function. A more formal measure function would be to assign each red as the value of 1, and adding the total values of the string. 
 
-In many cases, assigning the elements of the string to a number is a simple way to create a measure function. It becomes very easy to compare natural numbers. This is not always the case, unfortunately. For some programs, it may not be possible to assign numbers and use arithmetic to total a value for the step.  
+In many cases, assigning the elements of the string to a number is a simple way to create a measure function. It becomes very easy to compare natural numbers. This is not always the case, unfortunately. For some programs, it may not be possible to assign numbers and use arithmetic to total a value for the step. Take for example a circular list. We have the follwoing rewrite rules:
+```
+red blue red -> red
+```
+Our circular list comtains the following elements `red red blue blue red blue` and repeats. Examining this looping string, we can reduce it to the elements of `red blue blue red`, but how do we prove that we are done for a circular list, when the length is not determinable. 
+
+## The Halting Problem
+This [video](https://www.youtube.com/watch?v=92WHN-pAFCs) explains the halting problem very well. Basically, it is impossible to create a way to determine if a program will halt, that is be stuck forever, by just taking in an input.
