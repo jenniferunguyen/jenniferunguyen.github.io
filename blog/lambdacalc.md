@@ -38,7 +38,7 @@ Parentheses and spaces between letters are also very important to lambda calculu
 Bound variables are variables that are inside the definition of a function. Unbound or free variables are variables outside the function. In the following `(\x. x) y`, the x is a bound variable and the y is free.
 
 ## Beta Reduction
-Beta reduction is what we have shown: replacing the bound variable with the argument.
+Beta reduction is what we have shown: replacing the bound variable with the argument. This can be further explains using de brujin indexes. De brujin indexes assign numerical values to the bound variables. For example, take `\x. \y. \z. (x y) z`. We assign a number to each of the 3 bound variables, based on how many 'binders' the variable is in. By doing this, we replace the variables, or eliminate the use of them, by using numbers. Our example can be rewritten as `\ \ \ (3 2) 1`. The importance here is called alpha equivalence: the name of the variable doesn't matter in lambda calculus. \x. x and \y. y would evaluate the same, therefore we can do away with explicitly using bound variables.
 
 ## Eta Reduction
 Eta reduction is different. Eta reduction allows us to simplify an equation in the event that the function can't do any more beta reduction with its argument. For example, we have an expression `\x.\y. x + y`. We can actually reduce this to just `+`. Another example follows:
