@@ -24,6 +24,6 @@ To run Linux, I used WSL as my terminal and followed the [official site](https:/
 5. [Abstract Reduction Systems](ars.md)
 6. [Invariants](invariants.md)
 7. [Measure Function](measurefunc.md)
-8. [Roman Numerals Rewriting](romannum.md)
-9. [Fixed Point Combinator](fixedptc.md)
-10. [Dafny](dafny.md)
+8. Roman Numerals Rewriting
+9. Fixed Point Combinator
+10. Dafny
