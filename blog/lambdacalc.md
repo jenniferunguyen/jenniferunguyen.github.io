@@ -18,4 +18,5 @@ Parentheses and spaces between letters are also very important to lambda calculu
 
 Useful links:
 [What is Lambda Calculus](https://www.jrebel.com/blog/what-is-lambda-calculus)
+
 [Lambda Calculus](https://crypto.stanford.edu/~blynn/lambda/)
