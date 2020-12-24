@@ -47,6 +47,7 @@ Eta reduction is different. Eta reduction allows us to simplify an equation in t
 (\f. f x) g
 g x
 ```
+It can be seen that we have reduced the expression even though we lack a free Variable.
 
 Useful links:
 
