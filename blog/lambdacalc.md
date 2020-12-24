@@ -12,9 +12,9 @@ E signifies an expression. First, an expression is made up of variables. Second.
 ```
 The result would be 8.
 
-For lambda calculus, there exists a theorem called the [Church-Rosser theorem](https://www.youtube.com/watch?v=ROlXgCDA8ys). One of the biggest advantages of lambda calculus is the way abstraction works, because you can evaluate the function in any order (say one funciton on another, or the right one before the left one, or the left before the right) and still get the same answer. This makes it interesting to reduce lambda calculus expressions because you know that there are multiple ways to reduce it to the normal form. For a thorough read, check out Aaron Christianson's post [here](https://www.quora.com/What-are-the-advantages-of-programming-languages-based-on-lambda-calculus).
+For lambda calculus, there exists a theorem called the [Church-Rosser theorem](https://www.youtube.com/watch?v=ROlXgCDA8ys). One of the biggest advantages of lambda calculus is the way abstraction works, because you can evaluate the function in any order (say one funciton on another, or the right one before the left one, or the left before the right) and still get the same answer. This makes it interesting to reduce lambda calculus expressions because you know that there are multiple ways to reduce it to the normal form. Added to the fact that the expression x can be anything, from a variable to lines of code. For a fun read, check out Aaron Christianson's post [here](https://www.quora.com/What-are-the-advantages-of-programming-languages-based-on-lambda-calculus).
 
-Parentheses and spaces between letters are also very important to lambda calculus, because it defines the parse tree for the execution. 
+Parentheses and spaces between letters are also very important to lambda calculus, because it defines the parse tree for the execution. `(\x. x) x y` returns `x` while `(\x. x) xy` returns `xy`.
 
 Useful links:
 [What is Lambda Calculus](https://www.jrebel.com/blog/what-is-lambda-calculus)
