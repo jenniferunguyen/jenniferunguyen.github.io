@@ -21,9 +21,9 @@ To run Linux, I used WSL as my terminal and followed the [official site](https:/
 2. [Pattern Matching](patternmatching.md)
 3. [Parsing Trees](parsetrees.md)
 4. [Lambda Calculus](lambdacalc.md) -beta reduction
-5. Abstract Reduction Systems
-6. Invariants
-7. Measure Function
-8. Roman Numerals Rewriting
-9. Fixed Point Combinator
-10. Dafny
+5. [Abstract Reduction Systems](ars.md)
+6. [Invariants](invariants.md)
+7. [Measure Function](measurefunc.md)
+8. [Roman Numerals Rewriting](romannum.md)
+9. [Fixed Point Combinator](fixedptc.md)
+10. [Dafny](dafny.md)
