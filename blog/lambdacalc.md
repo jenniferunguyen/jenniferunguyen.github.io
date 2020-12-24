@@ -1,4 +1,4 @@
-# Step 4 Lambda Calculus
+# Step 4: Lambda Calculus
 
 Lambda calculus consists of 3 types of expressions. 
 ```
