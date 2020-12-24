@@ -24,4 +24,4 @@ Invariants are properties that are always true. Using them to determine the norm
 
 Invariants are not limited to ARS. Invariants are can be seen with object oriented programming as well. They can be used to check the errors in instances of a class. Using an example from [Class Invariants](http://people.cs.aau.dk/~normark/oop-csharp/html/notes/contracts_themes-class-inv-sect.html), a class for a circular list can have an invariant where a list with at least one node would always be circular. Therefore, every instance made of the class has to have at least one node, otherwise it is not a circular list.
 
-Invariants are used by the programmer to check their work. A compiler doesn't need to have invariants manually coded, because invariants are determined by the programmer based on relations that they have observed.
+Invariants are used by the programmer to check their work. A compiler doesn't need to have invariants manually coded, because invariants are determined by the programmer based on relations that they have observed. The different strings that fall under the same invariant are deemed to be in the same equivalence class.
