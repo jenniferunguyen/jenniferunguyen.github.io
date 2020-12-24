@@ -11,7 +11,7 @@ In many cases, assigning the elements of the string to a number is a simple way 
 ```
 red blue red -> red
 ```
-Our circular list comtains the following elements `red red blue blue red blue` and repeats. Examining this looping string, we can reduce it to the elements of `red blue blue red`, but how do we prove that we are done for a circular list, when the length is not determinable. If we are not able to determine a measure function, we can resort to other ways to saying that a function has terminated. One possible thought is when the program returns the same value or output for after a step as before. 
+Our circular list comtains the following elements `red red blue blue red blue` and repeats. Examining this looping string, we can reduce it to the elements of `red blue blue red`, but how do we prove that we are done for a circular list, when the length is not determinable. If we are not able to determine a measure function, we can resort to other ways to saying that a function has terminated. One possible thought is when the program returns the same value or output for after a step as before. We can then design an algorithm that recognizes when it is repeating the same iteration. This could be a potential solution. 
 
 ## The Halting Problem
 This [video](https://www.youtube.com/watch?v=92WHN-pAFCs) explains the halting (think terminating) problem very well. Basically, it is impossible to create a way to determine if a program will halt or be stuck forever, by just taking in an input. In an imperative language like C++, it would be like designing an algorithm that tells us if we would get an infinite loop based on an input. This can not be accomplish and the only true way to know is the run the algorithm.
