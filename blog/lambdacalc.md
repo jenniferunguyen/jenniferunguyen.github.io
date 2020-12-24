@@ -16,6 +16,9 @@ For lambda calculus, there exists a theorem called the [Church-Rosser theorem](h
 
 Parentheses and spaces between letters are also very important to lambda calculus, because it defines the parse tree for the execution. `(\x. x) x y` returns `x` while `(\x. x) xy` returns `xy`.
 
+Let's work through an example of reducing lambda calculus. 
+
+
 Useful links:
 
 [What is Lambda Calculus](https://www.jrebel.com/blog/what-is-lambda-calculus)
