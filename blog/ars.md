@@ -22,8 +22,24 @@ blue red yellow yellow red blue
 red blue yellow yellow red blue
 red yellow blue yellow red blue
 red yellow yellow blue red blue
-orange yellow blue red blue
-orange green red blue
-orange green purple
+red yellow yellow red blue blue
+red yellow red yellow blue blue
+red red yellow yellow blue blue
+red orange yellow blue blue
+red orange green blue
 ```
-From our set of rules, we are not reaching the same answer. We want to then find a way to expand/modify our rules so that we do get a normal form. In order to do that, we need to make sure that before the colors are combined (seen when two colors reduce to one), the order of the colors will always be a specific way. In our example, we have two red, two yellow, and two blue. Say our goal of a normal form is to have the final reduction go to `red orange green blue`.  
+In the first reduction, we reduce from two colors to one as soon as we could. In our second reduction, we focused on the order before combining colors. From our set of rules, we are not reaching the same answer. Say that we want to then find a way to expand/modify our rules so that we do get one normal form. In order to do that, we need to make sure that before the colors are combined (seen when two colors reduce to one), the order of the colors will always be a specific way. In our example, we have two red, two yellow, and two blue.  
+
+If we were to remove the reordering rules, so that our ARS is just
+```
+red yellow -> orange
+yellow blue -> green
+red blue -> purple
+```
+In this case, the order can not be rewritten. An example reduction would then be
+```
+blue red yellow yellow red blue
+blue orange yellow red blue
+blue orange yellow purple
+```
+Now, we have obtained a normal form.
