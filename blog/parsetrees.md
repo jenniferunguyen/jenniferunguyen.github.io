@@ -1,6 +1,18 @@
 # Step 3: Parsing Trees
 
-Parse trees are how the compiler breaks down what it needs to do. Understand that the tree goes left to right, bottom to top. Parse trees are a visual way of seeing precedence levels. When writing by hand, parse tree order can be seen with the parentheses around the different expressions, similar to regular arithmetic. Precendence can be set for different expressions. The higher the precendence level, the sooner it is executed, because the higher the precedence, the further down in the tree it is. We know that the tree goes bottom to top. 
+Parse trees are how the compiler breaks down what it needs to do. Understand that the tree goes left to right, bottom to top. Parse trees are a visual way of seeing precedence levels. When writing by hand, parse tree order can be seen with the parentheses around the different expressions, similar to regular arithmetic. Precendence can be set for different expressions. The lower the precendence level, the sooner it is executed, because the lower the precedence, the further down in the tree it is. We know that the tree goes bottom to top. 
+
+Another way to understand a parse tree is the inorder traversal of trees in imperative programming. For the language C++, we have the following code to traverse a binary tree in order, meaning the left subtree of a node, the node, and then the right subtree:
+```
+void InOrder(TreeNode *n){
+  if(n != null){
+    InOrder(n->left);
+    cout << n->key << endl;
+    InOrder(n->right);
+  }
+}
+```
+This the same way that parse trees are traversed.
 
 Using the site for BNFC, we are given the grammar for a calculator:
 ```
@@ -20,3 +32,7 @@ bnfc -m --haskell <grammarFileName>.cf
 make
 ```
 Now, you can test your parser with `echo "<insert what you want to parse>"./<interpreterFileName>`. When in doubt while updating your grammer, it benefits to visually draw out the parse tree.
+
+Useful links:
+
+[Parse Tree](https://runestone.academy/runestone/books/published/pythonds/Trees/ParseTree.html)
