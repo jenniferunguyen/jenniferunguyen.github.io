@@ -20,7 +20,7 @@ To run Linux, I used WSL as my terminal and followed the [official site](https:/
 1. [Functional Programming](functionalprogramming.md)
 2. [Pattern Matching](patternmatching.md)
 3. [Parsing Trees](parsetrees.md)
-4. [Lambda Calculus](lambdacalc.md) -beta reduction
+4. [Lambda Calculus](lambdacalc.md)
 5. [Abstract Reduction Systems](ars.md)
 6. [Invariants](invariants.md)
 7. [Measure Function](measurefunc.md)
